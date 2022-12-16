@@ -9,7 +9,7 @@ import {
 
 import { Background } from './src/components/Background';
 import { Home } from './src/screens/Home';
-import { Loading } from './src/screens/Loading';
+import { Loading } from './src/components/Loading';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
