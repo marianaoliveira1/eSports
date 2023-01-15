@@ -2,6 +2,7 @@ import './styles/main.css'
 import { MagnifyingGlassPlus}  from 'phosphor-react'
 
 import logoImg from './assets/logo-esports.svg'
+import { GameBanner } from './components/GameBanner'
 
 function App() {
   return (
@@ -12,55 +13,12 @@ function App() {
       </h1>
 
       <div className='grid grid-cols-6 gap-6 mt-16 '>
-        <a className='relative rounded-lg' href=''>
-            <img src="/game1.png" alt="" />
-
-            <div className='w-full pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
-              <strong className='font-bold text-white block'>League of Legends</strong>
-              <span className='text-zinc-300 text-sm block'>4 anuncios</span>
-            </div>
-        </a>
-        <a className='relative rounded-lg' href=''>
-            <img src="/game1.png" alt="" />
-
-            <div className='w-full pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
-              <strong className='font-bold text-white block'>League of Legends</strong>
-              <span className='text-zinc-300 text-sm block'>4 anuncios</span>
-            </div>
-        </a>
-
-        <a className='relative rounded-lg' href=''>
-            <img src="/game1.png" alt="" />
-
-            <div className='w-full pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
-              <strong className='font-bold text-white block'>League of Legends</strong>
-              <span className='text-zinc-300 text-sm block'>4 anuncios</span>
-            </div>
-        </a>
-        <a className='relative rounded-lg' href=''>
-            <img src="/game1.png" alt="" />
-
-            <div className='w-full pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
-              <strong className='font-bold text-white block'>League of Legends</strong>
-              <span className='text-zinc-300 text-sm block'>4 anuncios</span>
-            </div>
-        </a>
-        <a className='relative rounded-lg' href=''>
-            <img src="/game1.png" alt="" />
-
-            <div className='w-full pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
-              <strong className='font-bold text-white block'>League of Legends</strong>
-              <span className='text-zinc-300 text-sm block'>4 anuncios</span>
-            </div>
-        </a>
-        <a className='relative rounded-lg' href=''>
-            <img src="/game1.png" alt="" />
-
-            <div className='w-full pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0'>
-              <strong className='font-bold text-white block'>League of Legends</strong>
-              <span className='text-zinc-300 text-sm block'>4 anuncios</span>
-            </div>
-        </a>
+      <GameBanner />
+      <GameBanner />
+      <GameBanner />
+      <GameBanner />
+      <GameBanner />
+      <GameBanner />
       </div>
 
       <div className='pt-1 bg-nlw-gradient self-stretch rounded-lg overflow-hidden mt-8'>
